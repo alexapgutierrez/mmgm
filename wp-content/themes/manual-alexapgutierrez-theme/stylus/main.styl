@@ -1,0 +1,58 @@
+@import "nib"
+
+@import "variables"
+
+body
+  background-color white
+  font-family $font
+  font-size 16px
+  color $grey1
+
+h1, h2, h3, h4, h5, h6
+  font-family $font
+  font-weight $fontBold
+
+h2
+  font-size 28px
+
+h3
+  font-size 25px
+
+h4
+  font-size 20px
+
+h5
+  font-size 18px
+
+h6
+  font-size 15px
+
+.fullWidth
+   width 100%
+   margin-left auto
+   margin-right auto
+   max-width initial
+
+@import "header"
+
+.site-content
+  padding 25px 25px 0 20rem
+
+.single-title
+  text-transform uppercase
+  font-size 30px
+  text-align center
+  display table
+  margin 0 auto
+  position relative
+  &:before
+    content ""
+    position absolute
+    height 8px
+    width 100%
+    background #dff6b5
+    bottom 13px
+    z-index -1
+
+.entry-header
+  margin-bottom 50px

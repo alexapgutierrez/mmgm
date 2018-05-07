@@ -1,0 +1,38 @@
+.Header
+  position fixed
+  top 0
+  left 0
+  bottom 0
+  padding 10px
+  color white
+  text-align center
+  width 18rem
+  background $grey1
+  &-title
+    padding-bottom 10px
+    h1
+      font-size 30px
+    h2
+      font-size 20px
+  &-menu
+    .menu
+      background-color rgba(255, 255, 255, 0.1)
+      margin 25px 0
+      .menu-item
+        a
+          color white
+          border-bottom 1px dashed #727272
+          display block
+          padding 10px 0
+          width 100%
+          font-size 15px
+          margin 0
+          &:hover
+            color $grey1
+            background-color $verde
+        &:last-child
+          a
+            border-bottom none
+        &.is-active
+          a
+            color $grey1
